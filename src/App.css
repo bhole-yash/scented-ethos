@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: sans-serif;
+}
+
+.image-container {
+  width: 1600px; /* Match image dimensions */
+  height: 1066px; /* Match image dimensions */
+}
+
+.image-container img {
+  width: 100%; /* Stretch image to container */
+  height: 100%; /* Stretch image to container */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff; /* White text color */
+  background-color: #212529; /* Dark background color */
+  padding: 30px;
+  border-radius: 10px; /* Rounded corners */
 }
 
-.App-link {
-  color: #61dafb;
+.timer-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer-display {
+  display: flex;
+  gap: 20px; /* Spacing between timer segments */
+}
+
+.timer-display span {
+  font-size: 3em;
+  text-align: center;
 }

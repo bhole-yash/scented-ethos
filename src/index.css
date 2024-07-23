@@ -1,13 +1,127 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap");
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* App Container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Necessary for absolute positioning of video */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Place video behind other content */
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.header h1 {
+  font-family: "Playwrite DK Loopet", cursive;
+  text-decoration: underline;
+
+  margin: 0;
+}
+
+/* Container for slider and countdown */
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute elements evenly */
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for better responsiveness */
+  padding: 20px;
+}
+
+/* New media query for smaller screens */
+@media (max-width: 768px) {
+  flex-direction: column; /* Stack elements on top for small screens */
+}
+
+/* Slider Container */
+.slider-container {
+  flex: 1;
+  overflow: hidden;
+  height: 400px; /* Change to a percentage or vh unit */
+  position: relative;
+}
+
+.slider-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Countdown Container */
+.countdown-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.coming-soon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff; /* Or your desired color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+  text-align: center; /* Center the text */
+}
+
+.launch-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Adjust text color for contrast */
+}
+
+.time-units {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-unit .value {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.time-unit .label {
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
