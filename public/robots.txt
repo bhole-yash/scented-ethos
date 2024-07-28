@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.slipyme.com
+Host: https://www.scentedethos.com
 
 # Sitemaps
-Sitemap: https://www.slipyme.com/sitemap.xml
+Sitemap: https://www.scentedethos.com/sitemap.xml

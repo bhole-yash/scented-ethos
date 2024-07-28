@@ -20,45 +20,45 @@ export interface ICardProps {
 export const PROJECTS: ICardProps[] = [
   {
     id: 0,
-    title: "Slipyme Code",
+    title: "Scented Ethos Code",
     description:
-      "Slipyme'nin Yazılımcılar için açmış olduğu yazılımcı platformudur. Platformda kod paylaşımları ve yardımlar yapılmaktadır.",
+      "Scented Ethos'nin Yazılımcılar için açmış olduğu yazılımcı platformudur. Platformda kod paylaşımları ve yardımlar yapılmaktadır.",
     url: {
-      link: "https://code.slipyme.com",
-      github: "https://github.com/SlipBey/slipyme",
+      link: "https://code.scentedethos.com",
+      github: "https://github.com/SlipBey/scentedethos",
     },
     image: code,
   },
   {
     id: 1,
-    title: "Slipyme Botlist",
-    description: "Slipyme'nin Discord Botlist ve Serverlist Projesi!",
-    url: { link: "https://botlist.slipyme.com" },
+    title: "scentedethos Botlist",
+    description: "scentedethos'nin Discord Botlist ve Serverlist Projesi!",
+    url: { link: "https://botlist.scentedethos.com" },
     image: botlist,
   },
   {
     id: 2,
-    title: "Slipyme Todolist",
-    description: "Slipyme'nin Yenilikçi Todolist Projesi!",
-    url: { link: "https://todolist.slipyme.com" },
+    title: "scentedethos Todolist",
+    description: "scentedethos'nin Yenilikçi Todolist Projesi!",
+    url: { link: "https://todolist.scentedethos.com" },
     image: todolist,
   },
   {
     id: 3,
-    title: "Slipyme Deprem",
+    title: "scentedethos Deprem",
     description:
       "Depremde ne yapılması gerekir, yardımcı olacak kaynaklar neler? Yardımcı bir kaynak sistemi..",
-    url: { link: "https://deprem.slipyme.com" },
+    url: { link: "https://deprem.scentedethos.com" },
     image: deprem,
   },
   {
     id: 4,
-    title: "Slipyme Design",
+    title: "scentedethos Design",
     description:
-      "Slipyme'nin Tasarımcılar için kurmuş olduğu tasarımcı platformudur. Platformda hayalinize göre tasarımlar yaptırabilir veya teknik yardımlar alabilirsiniz.",
+      "scentedethos'nin Tasarımcılar için kurmuş olduğu tasarımcı platformudur. Platformda hayalinize göre tasarımlar yaptırabilir veya teknik yardımlar alabilirsiniz.",
     url: {
-      link: "https://design.slipyme.com",
-      github: "https://github.com/SlipBey/slipyme-design-webpage",
+      link: "https://design.scentedethos.com",
+      github: "https://github.com/SlipBey/scentedethos-design-webpage",
     },
     image: design,
   },

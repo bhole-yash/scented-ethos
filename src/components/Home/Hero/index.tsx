@@ -28,7 +28,7 @@ export const HomeHero: React.FC = () => {
         />
       ))}
       <div className="h-96 w-full p-8 rounded-xl flex items-center justify-center flex-col gap-5 border border-gray-700 relative">
-        <div className="text-blue-600 text-xl font-lg">Slipyme Company</div>
+        <div className="text-blue-600 text-xl font-lg"> Scented Ethos</div>
         <div className="text-3xl font-lg">{parser.get("homeHeroTitle")}</div>
         <div className="text-md font-lg">{parser.get("homeHeroText")}</div>
         <div className="mt-8">

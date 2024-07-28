@@ -17,7 +17,7 @@ export const Footer: FC = () => (
           className="w-24 rounded-full"
         />
       </div>
-      <div className="mt-12 sm:text-3xl font-semibold">Slipyme Company</div>
+      <div className="mt-12 sm:text-3xl font-semibold">Scented Ethos</div>
     </div>
     <div className="flex flex-wrap gap-5 justify-center sm:justify-between mb-3 px-24 py-8">
       {FOOTER.map((a, idx) => (
@@ -38,7 +38,7 @@ export const Footer: FC = () => (
     <div className="py-5 px-3 text-center text-white text-sm">
       &copy; {new Date().getFullYear()} All rights reserved. Made with{" "}
       <FiHeart className="text-red-500 inline" /> by{" "}
-      <Link href="https://slip.slipyme.com" className="text-blue-500">
+      <Link href="https://scentedethos.com" className="text-blue-500">
         SlipBey
       </Link>{" "}
       using{" "}
