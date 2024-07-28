@@ -20,7 +20,7 @@ export interface ICardProps {
 export const PROJECTS: ICardProps[] = [
   {
     id: 0,
-    title: "Scented Ethos Code",
+    title: "Jasmine Dream",
     description:
       "Scented Ethos'nin Yazılımcılar için açmış olduğu yazılımcı platformudur. Platformda kod paylaşımları ve yardımlar yapılmaktadır.",
     url: {
@@ -31,21 +31,21 @@ export const PROJECTS: ICardProps[] = [
   },
   {
     id: 1,
-    title: "scentedethos Botlist",
+    title: "Mystic rose",
     description: "scentedethos'nin Discord Botlist ve Serverlist Projesi!",
     url: { link: "https://botlist.scentedethos.com" },
     image: botlist,
   },
   {
     id: 2,
-    title: "scentedethos Todolist",
+    title: "Lavendar Splash",
     description: "scentedethos'nin Yenilikçi Todolist Projesi!",
     url: { link: "https://todolist.scentedethos.com" },
     image: todolist,
   },
   {
     id: 3,
-    title: "scentedethos Deprem",
+    title: "Sandalwood Serenity",
     description:
       "Depremde ne yapılması gerekir, yardımcı olacak kaynaklar neler? Yardımcı bir kaynak sistemi..",
     url: { link: "https://deprem.scentedethos.com" },
@@ -53,7 +53,7 @@ export const PROJECTS: ICardProps[] = [
   },
   {
     id: 4,
-    title: "scentedethos Design",
+    title: "Velvet Orchid",
     description:
       "scentedethos'nin Tasarımcılar için kurmuş olduğu tasarımcı platformudur. Platformda hayalinize göre tasarımlar yaptırabilir veya teknik yardımlar alabilirsiniz.",
     url: {
