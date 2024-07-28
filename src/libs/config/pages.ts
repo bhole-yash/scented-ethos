@@ -23,7 +23,7 @@ export const FOOTER = [
   [
     {
       href: "/mail",
-      text: "contact@slipyme.com",
+      text: "contact@scentedethos.com",
     },
   ],
   PROJECTS.slice(0, 3).map((project) => ({

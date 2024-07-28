@@ -11,7 +11,7 @@ const PrivacyPage: NextPage = () => (
         <div className="text-left text-gray-200">
           <p>Son güncelleme tarihi: 25 Eylül 2023</p>
           <p>
-            Hoş geldiniz! Bu gizlilik politikası, Slipyme Company tarafından
+            Hoş geldiniz! Bu gizlilik politikası, Scented Ethos tarafından
             işletilen web sitesi ve hizmetlerimiz (&ldquo;Hizmetler&ldquo;) ile
             ilgili bilgileri nasıl topladığımız, kullanıdığımız, paylaştığımız
             ve koruduğumuz hakkında size bilgi sağlamayı amaçlamaktadır. Lütfen
@@ -69,7 +69,7 @@ const PrivacyPage: NextPage = () => (
           <p>6. İletişim</p>
           <p>
             Gizlilik politikamızla ilgili herhangi bir sorunuz veya geri
-            bildiriminiz varsa, lütfen bize contact@slipyme.com adresinden
+            bildiriminiz varsa, lütfen bize contact@scentedethos.com adresinden
             ulaşın.
           </p>
           <p>

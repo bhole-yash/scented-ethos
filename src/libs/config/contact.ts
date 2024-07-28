@@ -18,7 +18,7 @@ export const CONTACT = [
   {
     icon: FiMail,
     title: "mail",
-    text: "contact@slipyme.com",
+    text: "contact@scentedethos.com",
   },
   {
     icon: FaLocationDot,
